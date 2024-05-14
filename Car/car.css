@@ -1,0 +1,78 @@
+#janelas{
+  background-color: black;
+  width: 210px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 60% / 100% 100% 0 0; 
+  margin-left: 100px;
+}
+
+#janela1 { 
+  width: 100px;
+  height: 30px;
+  border-radius: 100% 0 0 0; 
+  background-color: azure;
+}
+#janela2{ 
+  width: 100px;
+  height: 30px;
+  border-radius: 0 100% 0 0; 
+  background-color: azure;
+}
+
+#frente{
+  width: 200px;
+  height: 50px;
+  border-radius: 100% 0 0 0;
+  background-color: black;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  float: left;
+  margin-top: 25px;
+}
+
+#tras{
+  width: 180px;
+  height: 50px;
+  border-radius: 0 100% 5% 0; 
+  background-color: black;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  float: left;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+#rodas{
+  display: flex;
+  flex-direction: row;
+  z-index: -2;
+}
+
+#rodad{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  z-index: -2;
+  margin-top: 20px;
+  margin-left: 230px;
+}
+
+#rodae{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+  z-index:-2;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}

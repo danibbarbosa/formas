@@ -1,0 +1,86 @@
+#container{
+    background-color: rgb(148, 148, 148);
+    width: 300px;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 100px;
+
+}
+
+#cabeca {
+    display: block;
+    width: 200px;
+    height: 180px;
+    background-color: rgb(180, 212, 252);
+    border-radius: 70% 70% 70% 70% / 60% 60% 40% 40%;
+ 
+  }
+
+#olho-esquerdo{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#mascara{
+    width: 180px;
+    height: 90px;
+    background: rgb(43, 43, 43);
+    border-radius: 100px / 50px;
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    margin-left: 8px;
+    
+}
+
+#olho-direito{
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+  
+#corpo {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 20px 0;
+    background: rgb(187, 207, 243);
+    border-radius: 40% / 10%;
+    color: white;
+    
+    text-indent: .1em;
+    
+  }
+
+#braco-esquerdo{
+    width: 70px;
+    height: 200px;
+    background: #9ec8f8;
+    border-radius: 50px / 100px;
+    float: left;
+    margin-left: -75px;
+    margin-top: 30px;
+
+}
+#braco-direito{
+    width: 70px;
+    height: 200px;
+    background: #9ec8f8;
+    border-radius: 50px / 100px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 30px;
+
+}
